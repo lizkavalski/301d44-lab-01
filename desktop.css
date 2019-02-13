@@ -1,58 +1,77 @@
+/* grid */
 @media screen and (min-width: 960px) {
     .wrapper{
         margin: auto; 
         text-align: center;
+        box-sizing: border-box;
         max-width: 960px;
+        max-height: 768px;
+        display:grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows:150% 150% 150% 150% 150%;
         }
     #a{
         background-color: aqua;
-        height: l00px;
-        width: 960px;
+        height: 100%;
+        width: 100%;
+        grid-column: 1/6;
     }
     #b{
         background-color: rgb(119, 240, 199);
-        height: 600px;
-        width: 200px;
+        height: 100%;
+        width: 100%;
+        grid-column:1/2; 
+        grid-row:2/6;
     }
     #c {
         background-color: lightblue;
-        height: 200px;
-        width: 380px;
+        height: 100%;
+        width: 100%;
+        grid-column:2/4; 
+        grid-row:2/4;
     }
     #d {
         background-color: lightblue;
-        height: 200px;
-        width: 380px;
+        height: 100%;
+        width: 100%;
+        grid-column:4/6; 
+        grid-row:2/4;
     }
     #e {
         background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
+        height: 100%;
+        width: 100%;
+        grid-column:2/3; 
+        grid-row:4/5;
     }
     #f {
         background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
+        height: 100%;
+        width: 100%;
+        grid-column:3/4; 
+        grid-row:4/5;
+    }
     }
     #g {
         background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
+        height: 100%;
+        width: 100%;
+        grid-column:4/5; 
+        grid-row:4/5;
     }
     #h {
         background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
+        height: 100%;
+        width: 100%;
+        grid-column:5/6; 
+        grid-row:4/5;
     }
     #i{
         background-color: darkblue;
-        color:white;
-        height:150px;
-        width:760px;
+        color: white;
+        height: 100%;
+        width: 100%;
+        grid-column:2/6; 
+        grid-row:5/5;
     }
 
-} 

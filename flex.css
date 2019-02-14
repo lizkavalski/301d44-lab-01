@@ -1,63 +1,36 @@
 @media screen and (min-width: 960px) {
-    .wrapper{
-        margin: auto; 
-        text-align: center;
-        max-width: 960px;
+    *{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: flex-start;
         }
     #a{
         background-color: aqua;
-        height: l00px;
-        width: 960px;
+     
     }
     #b{
         background-color: rgb(119, 240, 199);
-        height: 600px;
-        width: 200px;
+        
     }
     #c {
         background-color: lightblue;
-        height: 200px;
-        width: 380px;
+       
     }
     #d {
         background-color: lightblue;
-        height: 200px;
-        width: 380px;
+       
     }
-    #e {
+    #e, #f, #g, #h,  {
         background-color: rgb(19, 60, 245);
         color:white;
-        height: 250px;
-        width: 190px;
+       
         
     }
-    #f {
-        background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
-    }
-    #g {
-        background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
-    }
-    #h {
-        background-color: rgb(19, 60, 245);
-        color:white;
-        height: 250px;
-        width: 190px;
-    }
+  
     #i{
         background-color: darkblue;
         color:white;
-        height:150px;
-        width:760px;
+        
     }
 
-} 
+}

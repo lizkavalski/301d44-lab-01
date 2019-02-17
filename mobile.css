@@ -6,8 +6,6 @@
   
 }
 #b{ 
-    
-    border: 3px solid black;
     background-color: palevioletred;
     text-align: center;
     width: 480px;
@@ -15,44 +13,37 @@
  
 }
 #c { 
-    
-    border: 3px solid black;
     background-color: lightpink;
     width: 480px;
     height: 125px;
    
 }
 #d{ 
-    border: 3px solid black;
-    background-color: lightpink;
+    background-color: rgba(255, 187, 197, 0.904);
     width: 480px;
     height: 125px;
    
 }
 #e{
-    border: 3px solid black;
     background-color: rgb(255, 223, 227);
     height: 250px;
     width: 240px;
     
 }
 #f{
-    border: 3px solid black;
-    background-color: rgb(255, 223, 227);
+    background-color: rgba(255, 183, 191, 0.63);
     height: 250px;
     width: 240px;
   
 }
 #g{
-    border: 3px solid black;
-    background-color: rgb(255, 223, 227);
+    background-color: rgb(235, 135, 168);
     height: 250px;
     width: 240px;
    
 }
 #h{
-    border: 3px solid black;
-    background-color: rgb(255, 223, 227);
+    background-color: rgb(241, 105, 162);
     height: 250px;
     width: 240px;
     
@@ -65,60 +56,60 @@
     
 }
 @media screen and (min-width: 960px) {
-    *{
+    body{
         margin: auto; 
         text-align: center;
         max-width: 960px;
         }
     #a{
         background-color: aqua;
-        height: l00px;
-        width: 960px;
+        height: 5em;
+        width: 60em;
     }
     #b{
         background-color: rgb(119, 240, 199);
-        height: 600px;
-        width: 200px;
+        height: 37.5em;
+        width: 12.5em;
     }
     #c {
         background-color: lightblue;
-        height: 200px;
-        width: 380px;
+        height: 12.5em;
+        width: 23.76em;
     }
     #d {
-        background-color: lightblue;
-        height: 200px;
-        width: 380px;
+        background-color: rgba(173, 216, 230, 0.781);
+        height: 12.5em;
+        width: 23.76em;
     }
     #e {
         background-color: rgb(19, 60, 245);
         color:white;
-        height: 250px;
-        width: 190px;
+        height: 15.6em;
+        width: 11.88em;
     }
     #f {
-        background-color: rgb(19, 60, 245);
+        background-color: rgb(16, 53, 214);
         color:white;
-        height: 250px;
-        width: 190px;
+        height: 15.6em;
+        width: 11.88em;
     }
     #g {
-        background-color: rgb(19, 60, 245);
+        background-color: rgba(16, 51, 206, 0.836);
         color:white;
-        height: 250px;
-        width: 190px;
+        height: 15.6em;
+        width: 11.88em;
     }
     #h {
-        background-color: rgb(19, 60, 245);
+        background-color: rgb(6, 41, 197);
         color:white;
-        height: 250px;
-        width: 190px;
+        height: 15.6em;
+        width: 11.88em;
     }
     #i{
         background-color: darkblue;
         color:white;
-        height:150px;
-        width:760px;
+        height:9.44em;
+        width:47.5em;
     }
 
 } 

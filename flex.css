@@ -1,36 +1,22 @@
 @media screen and (min-width: 960px) {
-    *{
+    body{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        }
-    #a{
-        background-color: aqua;
-     
-    }
-    #b{
-        background-color: rgb(119, 240, 199);
-        
-    }
+        }   
+    
     #c {
-        background-color: lightblue;
+        flex-direction: column-reverse;
+       
        
     }
-    #d {
-        background-color: lightblue;
-       
-    }
-    #e, #f, #g, #h,  {
-        background-color: rgb(19, 60, 245);
-        color:white;
-       
+    #e{ 
+        justify-content:row-reverse;
         
     }
   
     #i{
-        background-color: darkblue;
-        color:white;
-        
+       flex-direction: row;
     }
 
 }
